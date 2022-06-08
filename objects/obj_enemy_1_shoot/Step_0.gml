@@ -1,2 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Destroing
+
+if y >= 1300 {
+	instance_destroy();
+}
