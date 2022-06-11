@@ -6,13 +6,8 @@ var up = keyboard_check(ord("W"));
 var down = keyboard_check(ord("S"));
 var left = keyboard_check(ord("A"));
 var right = keyboard_check(ord("D"));
-var fire = keyboard_check_pressed(vk_space);
 
-if fire {
-	instance_create_layer(x, y - (sprite_height / 2), "Shoots", obj_player_shoot);
-	/* sprite_height/2, é interessante usar valores relativos ao alterar o surgimento de uma instância
-	que tem seu surgimento baseado em outra */ 
-}
+shooting();
 
 /*Importante, nesse caso, somar com a velocidade fará com que o player vá para a diagonal para baixo
 Porque? a velocidade do player é 5, quando eu não estou apertando nada, a o resultado da subtração
