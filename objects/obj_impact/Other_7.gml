@@ -1,2 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Destroying impact at the end of animation
+
+instance_destroy();

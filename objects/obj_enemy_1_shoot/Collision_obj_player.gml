@@ -1,2 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Shooting Player
+
+instance_create_layer(x, y, "Shoots", obj_impact);
+instance_destroy();
