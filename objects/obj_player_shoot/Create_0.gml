@@ -11,4 +11,3 @@ medido em frames do jogo, portanto, se o jogo tem 60 frames por segundo, um alar
 espera de 60 vai demorar um segundo para ser chamado.
 Quando o alarm é chamado ele executa todo o código no arquivo sendo possível criar um alarm recorrente
 criando-o no create e chamando-o de volta dentro do corpo do próprio alarm */
-alarm[0] = 2;
