@@ -3,6 +3,7 @@
     {"id":{"name":"spr_background_2","path":"sprites/spr_background_2/spr_background_2.yy",},"order":3,},
     {"id":{"name":"spr_enemy_1_shoot","path":"sprites/spr_enemy_1_shoot/spr_enemy_1_shoot.yy",},"order":1,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"spr_enemy_2_shoot","path":"sprites/spr_enemy_2_shoot/spr_enemy_2_shoot.yy",},"order":3,},
     {"id":{"name":"spr_shoot_enemy_bright","path":"sprites/spr_shoot_enemy_bright/spr_shoot_enemy_bright.yy",},"order":6,},
     {"id":{"name":"obj_enemy_1","path":"objects/obj_enemy_1/obj_enemy_1.yy",},"order":0,},
     {"id":{"name":"obj_enemy_2","path":"objects/obj_enemy_2/obj_enemy_2.yy",},"order":2,},
@@ -19,6 +20,7 @@
     {"id":{"name":"spr_background_3","path":"sprites/spr_background_3/spr_background_3.yy",},"order":4,},
     {"id":{"name":"obj_explosion","path":"objects/obj_explosion/obj_explosion.yy",},"order":1,},
     {"id":{"name":"spr_explosion","path":"sprites/spr_explosion/spr_explosion.yy",},"order":1,},
+    {"id":{"name":"obj_enemy_2_shoot","path":"objects/obj_enemy_2_shoot/obj_enemy_2_shoot.yy",},"order":3,},
     {"id":{"name":"room_1","path":"rooms/room_1/room_1.yy",},"order":0,},
   ],
   "Options": [

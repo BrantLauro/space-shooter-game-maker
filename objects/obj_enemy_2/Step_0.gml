@@ -4,12 +4,11 @@
 
 // Inherit the parent event
 event_inherited();
-if (y > room_height/3) {
+if (y > room_height/3 && can_move_side) {
 	if (x > room_width/2) {
-		show_debug_message("Estou na direita");
-		hspeed = -3;
+		hspeed = -4;
 	} else {
-		show_debug_message("Estou na esquerda");
-		hspeed = 3;
+		hspeed = 4;
 	}
+	can_move_side = false;
 }

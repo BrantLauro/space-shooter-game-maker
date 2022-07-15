@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_enemy_2",
-    "path": "sprites/spr_enemy_2/spr_enemy_2.yy",
+    "name": "spr_enemy_2_shoot",
+    "path": "sprites/spr_enemy_2_shoot/spr_enemy_2_shoot.yy",
   },
   "solid": false,
   "visible": true,
@@ -9,8 +9,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_enemy_1",
-    "path": "objects/obj_enemy_1/obj_enemy_1.yy",
+    "name": "obj_enemy_1_shoot",
+    "path": "objects/obj_enemy_1_shoot/obj_enemy_1_shoot.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,11 +24,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -36,7 +32,7 @@
     "path": "folders/Objects/Enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_enemy_2",
+  "name": "obj_enemy_2_shoot",
   "tags": [],
   "resourceType": "GMObject",
 }
